@@ -1,14 +1,247 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+todos: [
+{
+id: 1,
+ Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Do something nice for someone I care about",
+completed: true,
+userId: 26
+},
+{
+id: 2,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Memorize the fifty states and their capitals",
+completed: false,
+userId: 48
+},
+{
+id: 3,
+  Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Watch a classic movie",
+completed: false,
+userId: 4
+},
+{
+id: 4,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Contribute code or a monetary donation to an open-source software project",
+completed: false,
+userId: 48
+},
+{
+id: 5,
+  Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Solve a Rubik's cube",
+completed: false,
+userId: 31
+},
+{
+id: 6,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Bake pastries for me and neighbor",
+completed: false,
+userId: 39
+},
+{
+id: 7,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Go see a Broadway production",
+completed: false,
+userId: 32
+},
+{
+id: 8,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Write a thank you letter to an influential person in my life",
+completed: true,
+userId: 13
+},
+{
+id: 9,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Invite some friends over for a game night",
+completed: false,
+userId: 47
+},
+{
+id: 10,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Have a football scrimmage with some friends",
+completed: false,
+userId: 19
+},
+{
+id: 11,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Text a friend I haven't talked to in a long time",
+completed: false,
+userId: 39
+},
+{
+id: 12,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Organize pantry",
+completed: true,
+userId: 39
+},
+{
+id: 13,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Buy a new house decoration",
+completed: false,
+userId: 16
+},
+{
+id: 14,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Plan a vacation I've always wanted to take",
+completed: false,
+userId: 28
+},
+{
+id: 15,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Clean out car",
+completed: false,
+userId: 33
+},
+{
+id: 16,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Draw and color a Mandala",
+completed: true,
+userId: 24
+},
+{
+id: 17,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Create a cookbook with favorite recipes",
+completed: false,
+userId: 1
+},
+{
+id: 18,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Bake a pie with some friends",
+completed: false,
+userId: 1
+},
+{
+id: 19,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Create a compost pile",
+completed: true,
+userId: 5
+},
+{
+id: 20,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Take a hike at a local park",
+completed: true,
+userId: 43
+},
+{
+id: 21,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Take a class at local community center that interests you",
+completed: false,
+userId: 22
+},
+{
+id: 22,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Research a topic interested in",
+completed: false,
+userId: 4
+},
+{
+id: 23,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Plan a trip to another country",
+completed: true,
+userId: 37
+},
+{
+id: 24,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Improve touch typing",
+completed: false,
+userId: 45
+},
+{
+id: 25,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Learn Express.js",
+completed: false,
+userId: 49
+},
+{
+id: 26,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Learn calligraphy",
+completed: false,
+userId: 50
+},
+{
+id: 27,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Have a photo session with some friends",
+completed: false,
+userId: 14
+},
+{
+id: 28,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Go to the gym",
+completed: false,
+userId: 15
+},
+{
+id: 29,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Make own LEGO creation",
+completed: false,
+userId: 30
+},
+{
+id: 30,
+   Author: "Mahmoud Farag",
+  Date : "March 04 2013",
+todo: "Take cat on a walk",
+completed: false,
+userId: 15
+}
+],
+total: 150,
+skip: 0,
+limit: 30
 }
